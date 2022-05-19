@@ -1,53 +1,37 @@
 <RCC>
-  <qresource prefix="settings">
-    <file>icons/512x512/settings/settings.png</file>
-    <file>icons/512x512/settings/settings-green-1.png</file>
-    <file>icons/512x512/settings/settings-green-2.png</file>
-    <file>icons/512x512/settings/settings-purple-1.png</file>
-    <file>icons/512x512/settings/settings-purple-2.png</file>
+  <qresource prefix="32x32">
+    <file>icons/32x32/menu/menu.png</file>
+    <file>icons/32x32/menu/menu-green-1.png</file>
+    <file>icons/32x32/menu/menu-green-2.png</file>
+    <file>icons/32x32/menu/menu-purple-1.png</file>
+    <file>icons/32x32/menu/menu-purple-2.png</file>
   </qresource>
-  <qresource prefix="menu">
-    <file>icons/512x512/menu/menu.png</file>
-    <file>icons/512x512/menu/menu-green-1.png</file>
-    <file>icons/512x512/menu/menu-green-2.png</file>
-    <file>icons/512x512/menu/menu-purple-1.png</file>
-    <file>icons/512x512/menu/menu-purple-2.png</file>
-  </qresource>
-  <qresource prefix="home">
-    <file>icons/512x512/home/home.png</file>
-    <file>icons/512x512/home/home-green-1.png</file>
-    <file>icons/512x512/home/home-green-2.png</file>
-    <file>icons/512x512/home/home-purple-1.png</file>
-    <file>icons/512x512/home/home-purple-2.png</file>
-  </qresource>
-  <qresource prefix="game">
-    <file>icons/512x512/game/game.png</file>
-    <file>icons/512x512/game/game-green-1.png</file>
-    <file>icons/512x512/game/game-green-2.png</file>
-    <file>icons/512x512/game/game-purple-1.png</file>
-    <file>icons/512x512/game/game-purple-2.png</file>
-  </qresource>
-  <qresource prefix="folder">
-    <file>icons/512x512/folder/folder.png</file>
-    <file>icons/512x512/folder/folder-green-1.png</file>
-    <file>icons/512x512/folder/folder-green-2.png</file>
-    <file>icons/512x512/folder/folder-purple-1.png</file>
-    <file>icons/512x512/folder/folder-purple-2.png</file>
-  </qresource>
-  <qresource prefix="sun">
-    <file>icons/512x512/sun/icones-pablo_01.png</file>
-    <file>icons/512x512/sun/icones-pablo_02.png</file>
-    <file>icons/512x512/sun/icones-pablo_03.png</file>
-    <file>icons/512x512/sun/picones-pablo_01.png</file>
-    <file>icons/512x512/sun/picones-pablo_02.png</file>
-    <file>icons/512x512/sun/picones-pablo_03.png</file>
-  </qresource>
-  <qresource prefix="moon">
-    <file>icons/512x512/moon/icones-pablo_01.png</file>
-    <file>icons/512x512/moon/icones-pablo_02.png</file>
-    <file>icons/512x512/moon/icones-pablo_03.png</file>
-    <file>icons/512x512/moon/picones-pablo_01.png</file>
-    <file>icons/512x512/moon/picones-pablo_02.png</file>
-    <file>icons/512x512/moon/picones-pablo_03.png</file>
+  <qresource prefix="24x24">
+    <file>icons/24x24/sun/sun-1.png</file>
+    <file>icons/24x24/sun/sun-2.png</file>
+    <file>icons/24x24/sun/sun-3.png</file>
+    <file>icons/24x24/moon/moon-1.png</file>
+    <file>icons/24x24/moon/moon-2.png</file>
+    <file>icons/24x24/moon/moon-3.png</file>
+    <file>icons/24x24/settings/settings.png</file>
+    <file>icons/24x24/settings/settings-green-1.png</file>
+    <file>icons/24x24/settings/settings-green-2.png</file>
+    <file>icons/24x24/settings/settings-purple-1.png</file>
+    <file>icons/24x24/settings/settings-purple-2.png</file>
+    <file>icons/24x24/home/home.png</file>
+    <file>icons/24x24/home/home-green-1.png</file>
+    <file>icons/24x24/home/home-green-2.png</file>
+    <file>icons/24x24/home/home-purple-1.png</file>
+    <file>icons/24x24/home/home-purple-2.png</file>
+    <file>icons/24x24/game/game.png</file>
+    <file>icons/24x24/game/game-green-1.png</file>
+    <file>icons/24x24/game/game-green-2.png</file>
+    <file>icons/24x24/game/game-purple-1.png</file>
+    <file>icons/24x24/game/game-purple-2.png</file>
+    <file>icons/24x24/folder/folder.png</file>
+    <file>icons/24x24/folder/folder-green-1.png</file>
+    <file>icons/24x24/folder/folder-green-2.png</file>
+    <file>icons/24x24/folder/folder-purple-1.png</file>
+    <file>icons/24x24/folder/folder-purple-2.png</file>
   </qresource>
 </RCC>

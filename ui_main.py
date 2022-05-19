@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'ui_mainPzDUzh.ui'
+## Form generated from reading UI file 'ui_mainYFNLxx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.3.0
 ##
@@ -9,8 +9,7 @@
 ################################################################################
 
 from PySide6.QtCore import (QCoreApplication, QMetaObject, QSize, Qt)
-from PySide6.QtGui import (QCursor,
-                           QIcon)
+from PySide6.QtGui import (QCursor)
 from PySide6.QtWidgets import (QFrame, QHBoxLayout, QPushButton, QSizePolicy, QStackedWidget, QVBoxLayout,
                                QWidget)
 import files_rc
@@ -60,17 +59,17 @@ class Ui_MainWindow(object):
         self.pushButton_toggle_menu.setStyleSheet(u"QPushButton {\n"
                                                   "	color: rgb(255, 255, 255);\n"
                                                   "	border: 0px solid;\n"
-                                                  "	icon: url(:/menu/icons/512x512/menu/menu.png)\n"
+                                                  "	icon: url(:/32x32/icons/32x32/menu/menu.png)\n"
                                                   "}\n"
                                                   "\n"
                                                   "QPushButton:hover {\n"
-                                                  "	icon: url(:/menu/icons/512x512/menu/menu-green-1.png)\n"
+                                                  "	icon: url(:/32x32/icons/32x32/menu/menu-green-1.png)\n"
                                                   "}\n"
                                                   "\n"
                                                   "QPushButton:pressed {\n"
-                                                  "	icon: url(:/menu/icons/512x512/menu/menu-green-2.png)\n"
+                                                  "	icon: url(:/32x32/icons/32x32/menu/menu-green-2.png)\n"
                                                   "}")
-        self.pushButton_toggle_menu.setIconSize(QSize(24, 24))
+        self.pushButton_toggle_menu.setIconSize(QSize(32, 32))
 
         self.verticalLayout_2.addWidget(self.pushButton_toggle_menu)
 
@@ -109,107 +108,170 @@ class Ui_MainWindow(object):
         self.frame_top_menus.setFrameShape(QFrame.NoFrame)
         self.frame_top_menus.setFrameShadow(QFrame.Raised)
         self.verticalLayout_4 = QVBoxLayout(self.frame_top_menus)
-        self.verticalLayout_4.setSpacing(0)
+        self.verticalLayout_4.setSpacing(10)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
-        self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_4.setContentsMargins(0, 10, 0, 0)
         self.pushButton_menu_home = QPushButton(self.frame_top_menus)
         self.pushButton_menu_home.setObjectName(u"pushButton_menu_home")
+        sizePolicy1 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
+        sizePolicy1.setHorizontalStretch(0)
+        sizePolicy1.setVerticalStretch(0)
+        sizePolicy1.setHeightForWidth(self.pushButton_menu_home.sizePolicy().hasHeightForWidth())
+        self.pushButton_menu_home.setSizePolicy(sizePolicy1)
         self.pushButton_menu_home.setMinimumSize(QSize(0, 40))
         self.pushButton_menu_home.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_menu_home.setStyleSheet(u"QPushButton {\n"
+                                                "	background-image: url(:/24x24/icons/24x24/home/home.png);\n"
+                                                "    background-position: left center;\n"
+                                                "    background-repeat: no-repeat;\n"
                                                 "	color: rgb(255, 255, 255);\n"
-                                                "	border: 0px solid;\n"
-                                                "	icon: url(:/home/icons/512x512/home/home.png);\n"
+                                                "    border: none;\n"
+                                                "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                "    text-align: left;\n"
+                                                "    padding-left: 47px;\n"
+                                                "}\n"
+                                                "\n"
+                                                "QPushButton[Active=true] {\n"
+                                                "	background-image: url(:/24x24/icons/24x24/home/home.png);\n"
+                                                "    background-position: left center;\n"
+                                                "    background-repeat: no-repeat;\n"
+                                                "    border: none;\n"
+                                                "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                "    border-right: 5px solid rgb(233, 123, 195);\n"
+                                                "    text-align: left;\n"
+                                                "    padding-left: 45px;\n"
                                                 "}\n"
                                                 "\n"
                                                 "QPushButton:hover {\n"
-                                                "	icon: url(:/home/icons/512x512/home/home-green-1.png);\n"
+                                                "	background-image: url(:/24x24/icons/24x24/home/home-green-1.png);\n"
+                                                "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                 "}\n"
                                                 "\n"
                                                 "QPushButton:pressed {\n"
-                                                "	icon: url(:/home/icons/512x512/home/home-green-2.png);\n"
+                                                "	background-image: url(:/24x24/icons/24x24/home/home-green-2.png);\n"
+                                                "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                 "}")
-        self.pushButton_menu_home.setIconSize(QSize(24, 24))
 
         self.verticalLayout_4.addWidget(self.pushButton_menu_home)
 
         self.pushButton_menu_add_game = QPushButton(self.frame_top_menus)
         self.pushButton_menu_add_game.setObjectName(u"pushButton_menu_add_game")
+        sizePolicy1.setHeightForWidth(self.pushButton_menu_add_game.sizePolicy().hasHeightForWidth())
+        self.pushButton_menu_add_game.setSizePolicy(sizePolicy1)
         self.pushButton_menu_add_game.setMinimumSize(QSize(0, 40))
         self.pushButton_menu_add_game.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_menu_add_game.setStyleSheet(u"QPushButton {\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/folder/folder.png);\n"
+                                                    "    background-position: left center;\n"
+                                                    "    background-repeat: no-repeat;\n"
                                                     "	color: rgb(255, 255, 255);\n"
-                                                    "	border: 0px solid;\n"
-                                                    "	icon: url(:/game/icons/512x512/game/game.png);\n"
+                                                    "    border: none;\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                    "    text-align: left;\n"
+                                                    "    padding-left: 47px;\n"
+                                                    "}\n"
+                                                    "\n"
+                                                    "QPushButton[Active=true] {\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/folder/folder.png);\n"
+                                                    "    background-position: left center;\n"
+                                                    "    background-repeat: no-repeat;\n"
+                                                    "    border: none;\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                    "    border-right: 5px solid rgb(233, 123, 195);\n"
+                                                    "    text-align: left;\n"
+                                                    "    padding-left: 45px;\n"
                                                     "}\n"
                                                     "\n"
                                                     "QPushButton:hover {\n"
-                                                    "	icon: url(:/game/icons/512x512/game/game-green-1.png);\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/folder/folder-green-1.png);\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                     "}\n"
                                                     "\n"
                                                     "QPushButton:pressed {\n"
-                                                    "	icon: url(:/game/icons/512x512/game/game-green-2.png);\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/folder/folder-green-2.png);\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                     "}")
-        self.pushButton_menu_add_game.setIconSize(QSize(24, 24))
 
         self.verticalLayout_4.addWidget(self.pushButton_menu_add_game)
 
         self.pushButton_menu_settings = QPushButton(self.frame_top_menus)
         self.pushButton_menu_settings.setObjectName(u"pushButton_menu_settings")
+        sizePolicy1.setHeightForWidth(self.pushButton_menu_settings.sizePolicy().hasHeightForWidth())
+        self.pushButton_menu_settings.setSizePolicy(sizePolicy1)
         self.pushButton_menu_settings.setMinimumSize(QSize(0, 40))
         self.pushButton_menu_settings.setCursor(QCursor(Qt.PointingHandCursor))
         self.pushButton_menu_settings.setStyleSheet(u"QPushButton {\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/settings/settings.png);\n"
+                                                    "    background-position: left center;\n"
+                                                    "    background-repeat: no-repeat;\n"
                                                     "	color: rgb(255, 255, 255);\n"
-                                                    "	border: 0px solid;\n"
-                                                    "	icon: url(:/settings/icons/512x512/settings/settings.png);\n"
+                                                    "    border: none;\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                    "    text-align: left;\n"
+                                                    "    padding-left: 47px;\n"
+                                                    "}\n"
+                                                    "\n"
+                                                    "QPushButton[Active=true] {\n"
+                                                    "	background-image:url(:/24x24/icons/24x24/settings/settings.png);\n"
+                                                    "    background-position: left center;\n"
+                                                    "    background-repeat: no-repeat;\n"
+                                                    "    border: none;\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                    "    border-right: 5px solid rgb(233, 123, 195);\n"
+                                                    "    text-align: left;\n"
+                                                    "    padding-left: 45px;\n"
                                                     "}\n"
                                                     "\n"
                                                     "QPushButton:hover {\n"
-                                                    "	icon: url(:/settings/icons/512x512/settings/settings-green-1.png)\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/settings/settings-green-1.png);\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                     "}\n"
                                                     "\n"
                                                     "QPushButton:pressed {\n"
-                                                    "	icon: url(:/settings/icons/512x512/settings/settings-green-2.png)\n"
+                                                    "	background-image: url(:/24x24/icons/24x24/settings/settings-green-2.png);\n"
+                                                    "    border-left: 23px solid rgb(40, 42, 54);\n"
                                                     "}")
-        self.pushButton_menu_settings.setIconSize(QSize(24, 24))
 
         self.verticalLayout_4.addWidget(self.pushButton_menu_settings)
 
         self.verticalLayout_3.addWidget(self.frame_top_menus, 0, Qt.AlignTop)
 
-        self.frame_bottom_menu = QFrame(self.frame_left_menu)
-        self.frame_bottom_menu.setObjectName(u"frame_bottom_menu")
-        self.frame_bottom_menu.setFrameShape(QFrame.NoFrame)
-        self.frame_bottom_menu.setFrameShadow(QFrame.Raised)
-        self.verticalLayout_5 = QVBoxLayout(self.frame_bottom_menu)
+        self.frame_bottom_menus = QFrame(self.frame_left_menu)
+        self.frame_bottom_menus.setObjectName(u"frame_bottom_menus")
+        self.frame_bottom_menus.setFrameShape(QFrame.NoFrame)
+        self.frame_bottom_menus.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_5 = QVBoxLayout(self.frame_bottom_menus)
         self.verticalLayout_5.setSpacing(0)
         self.verticalLayout_5.setObjectName(u"verticalLayout_5")
         self.verticalLayout_5.setContentsMargins(0, 0, 0, 10)
-        self.pushButton_menu_dark_mode = QPushButton(self.frame_bottom_menu)
-        self.pushButton_menu_dark_mode.setObjectName(u"pushButton_menu_dark_mode")
-        self.pushButton_menu_dark_mode.setMinimumSize(QSize(0, 40))
-        self.pushButton_menu_dark_mode.setCursor(QCursor(Qt.PointingHandCursor))
-        self.pushButton_menu_dark_mode.setStyleSheet(u"QPushButton {\n"
-                                                     "	color: rgb(255, 255, 255);\n"
-                                                     "	border: 0px solid;\n"
-                                                     "	icon: url(:/sun/icons/512x512/sun/picones-pablo_01.png)\n"
-                                                     "}\n"
-                                                     "\n"
-                                                     "QPushButton:hover {\n"
-                                                     "	icon: url(:/sun/icons/512x512/sun/picones-pablo_02.png)\n"
-                                                     "}\n"
-                                                     "\n"
-                                                     "QPushButton:pressed {\n"
-                                                     "	icon: url(:/sun/icons/512x512/sun/picones-pablo_03.png)\n"
-                                                     "}")
-        icon = QIcon()
-        icon.addFile(u"../../Biblioteca/Downloads/output-onlinepngtools.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_menu_dark_mode.setIcon(icon)
-        self.pushButton_menu_dark_mode.setIconSize(QSize(32, 32))
+        self.pushButton_menu_theme = QPushButton(self.frame_bottom_menus)
+        self.pushButton_menu_theme.setObjectName(u"pushButton_menu_theme")
+        self.pushButton_menu_theme.setMinimumSize(QSize(0, 40))
+        self.pushButton_menu_theme.setCursor(QCursor(Qt.PointingHandCursor))
+        self.pushButton_menu_theme.setStyleSheet(u"QPushButton {\n"
+                                                 "	background-image: url(:/24x24/icons/24x24/sun/sun-1.png);\n"
+                                                 "    background-position: left center;\n"
+                                                 "    background-repeat: no-repeat;\n"
+                                                 "	color: rgb(255, 255, 255);\n"
+                                                 "    border: none;\n"
+                                                 "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                 "    text-align: left;\n"
+                                                 "    padding-left: 47px;\n"
+                                                 "}\n"
+                                                 "\n"
+                                                 "QPushButton:hover {\n"
+                                                 "	background-image: url(:/24x24/icons/24x24/sun/sun-2.png);\n"
+                                                 "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                 "}\n"
+                                                 "\n"
+                                                 "QPushButton:pressed {\n"
+                                                 "	background-image: url(:/24x24/icons/24x24/sun/sun-3.png);\n"
+                                                 "    border-left: 23px solid rgb(40, 42, 54);\n"
+                                                 "}")
 
-        self.verticalLayout_5.addWidget(self.pushButton_menu_dark_mode)
+        self.verticalLayout_5.addWidget(self.pushButton_menu_theme)
 
-        self.verticalLayout_3.addWidget(self.frame_bottom_menu, 0, Qt.AlignBottom)
+        self.verticalLayout_3.addWidget(self.frame_bottom_menus, 0, Qt.AlignBottom)
 
         self.horizontalLayout_2.addWidget(self.frame_left_menu)
 
@@ -247,8 +309,11 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
         self.pushButton_toggle_menu.setText("")
-        self.pushButton_menu_home.setText("")
-        self.pushButton_menu_add_game.setText("")
-        self.pushButton_menu_settings.setText("")
-        self.pushButton_menu_dark_mode.setText("")
+        # if QT_CONFIG(tooltip)
+        self.pushButton_menu_home.setToolTip(QCoreApplication.translate("MainWindow", u"Home", None))
+        # endif // QT_CONFIG(tooltip)
+        self.pushButton_menu_home.setText(QCoreApplication.translate("MainWindow", u"Home", None))
+        self.pushButton_menu_add_game.setText(QCoreApplication.translate("MainWindow", u"Add Folder", None))
+        self.pushButton_menu_settings.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
+        self.pushButton_menu_theme.setText(QCoreApplication.translate("MainWindow", u"Light Mode", None))
     # retranslateUi

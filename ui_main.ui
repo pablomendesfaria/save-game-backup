@@ -120,15 +120,15 @@
              <string notr="true">QPushButton {
 	color: rgb(255, 255, 255);
 	border: 0px solid;
-	icon: url(:/menu/icons/512x512/menu/menu.png)
+	icon: url(:/32x32/icons/32x32/menu/menu.png)
 }
 
 QPushButton:hover {
-	icon: url(:/menu/icons/512x512/menu/menu-green-1.png)
+	icon: url(:/32x32/icons/32x32/menu/menu-green-1.png)
 }
 
 QPushButton:pressed {
-	icon: url(:/menu/icons/512x512/menu/menu-green-2.png)
+	icon: url(:/32x32/icons/32x32/menu/menu-green-2.png)
 }</string>
             </property>
             <property name="text">
@@ -136,8 +136,8 @@ QPushButton:pressed {
             </property>
             <property name="iconSize">
              <size>
-              <width>24</width>
-              <height>24</height>
+              <width>32</width>
+              <height>32</height>
              </size>
             </property>
            </widget>
@@ -234,13 +234,13 @@ QPushButton:pressed {
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_4">
              <property name="spacing">
-              <number>0</number>
+              <number>10</number>
              </property>
              <property name="leftMargin">
               <number>0</number>
              </property>
              <property name="topMargin">
-              <number>0</number>
+              <number>10</number>
              </property>
              <property name="rightMargin">
               <number>0</number>
@@ -250,6 +250,12 @@ QPushButton:pressed {
              </property>
              <item>
               <widget class="QPushButton" name="pushButton_menu_home">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -259,34 +265,55 @@ QPushButton:pressed {
                <property name="cursor">
                 <cursorShape>PointingHandCursor</cursorShape>
                </property>
+               <property name="toolTip">
+                <string>Home</string>
+               </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
+	background-image: url(:/24x24/icons/24x24/home/home.png);
+    background-position: left center;
+    background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
-	border: 0px solid;
-	icon: url(:/home/icons/512x512/home/home.png);
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    text-align: left;
+    padding-left: 47px;
+}
+
+QPushButton[Active=true] {
+	background-image: url(:/24x24/icons/24x24/home/home.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    border-right: 5px solid rgb(233, 123, 195);
+    text-align: left;
+    padding-left: 45px;
 }
 
 QPushButton:hover {
-	icon: url(:/home/icons/512x512/home/home-green-1.png);
+	background-image: url(:/24x24/icons/24x24/home/home-green-1.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	icon: url(:/home/icons/512x512/home/home-green-2.png);
+	background-image: url(:/24x24/icons/24x24/home/home-green-2.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
                <property name="text">
-                <string/>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>24</width>
-                 <height>24</height>
-                </size>
+                <string>Home</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_menu_add_game">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -298,32 +325,50 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
+	background-image: url(:/24x24/icons/24x24/folder/folder.png);
+    background-position: left center;
+    background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
-	border: 0px solid;
-	icon: url(:/game/icons/512x512/game/game.png);
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    text-align: left;
+    padding-left: 47px;
+}
+
+QPushButton[Active=true] {
+	background-image: url(:/24x24/icons/24x24/folder/folder.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    border-right: 5px solid rgb(233, 123, 195);
+    text-align: left;
+    padding-left: 45px;
 }
 
 QPushButton:hover {
-	icon: url(:/game/icons/512x512/game/game-green-1.png);
+	background-image: url(:/24x24/icons/24x24/folder/folder-green-1.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	icon: url(:/game/icons/512x512/game/game-green-2.png);
+	background-image: url(:/24x24/icons/24x24/folder/folder-green-2.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
                <property name="text">
-                <string/>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>24</width>
-                 <height>24</height>
-                </size>
+                <string>Add Folder</string>
                </property>
               </widget>
              </item>
              <item>
               <widget class="QPushButton" name="pushButton_menu_settings">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -335,27 +380,39 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
+	background-image: url(:/24x24/icons/24x24/settings/settings.png);
+    background-position: left center;
+    background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
-	border: 0px solid;
-	icon: url(:/settings/icons/512x512/settings/settings.png);
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    text-align: left;
+    padding-left: 47px;
+}
+
+QPushButton[Active=true] {
+	background-image:url(:/24x24/icons/24x24/settings/settings.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    border-right: 5px solid rgb(233, 123, 195);
+    text-align: left;
+    padding-left: 45px;
 }
 
 QPushButton:hover {
-	icon: url(:/settings/icons/512x512/settings/settings-green-1.png)
+	background-image: url(:/24x24/icons/24x24/settings/settings-green-1.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	icon: url(:/settings/icons/512x512/settings/settings-green-2.png)
+	background-image: url(:/24x24/icons/24x24/settings/settings-green-2.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
                <property name="text">
-                <string/>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>24</width>
-                 <height>24</height>
-                </size>
+                <string>Settings</string>
                </property>
               </widget>
              </item>
@@ -363,7 +420,7 @@ QPushButton:pressed {
            </widget>
           </item>
           <item alignment="Qt::AlignBottom">
-           <widget class="QFrame" name="frame_bottom_menu">
+           <widget class="QFrame" name="frame_bottom_menus">
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>
             </property>
@@ -387,7 +444,7 @@ QPushButton:pressed {
               <number>10</number>
              </property>
              <item>
-              <widget class="QPushButton" name="pushButton_menu_dark_mode">
+              <widget class="QPushButton" name="pushButton_menu_theme">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -399,31 +456,28 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
+	background-image: url(:/24x24/icons/24x24/sun/sun-1.png);
+    background-position: left center;
+    background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
-	border: 0px solid;
-	icon: url(:/sun/icons/512x512/sun/picones-pablo_01.png)
+    border: none;
+    border-left: 23px solid rgb(40, 42, 54);
+    text-align: left;
+    padding-left: 47px;
 }
 
 QPushButton:hover {
-	icon: url(:/sun/icons/512x512/sun/picones-pablo_02.png)
+	background-image: url(:/24x24/icons/24x24/sun/sun-2.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	icon: url(:/sun/icons/512x512/sun/picones-pablo_03.png)
+	background-image: url(:/24x24/icons/24x24/sun/sun-3.png);
+    border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
                <property name="text">
-                <string/>
-               </property>
-               <property name="icon">
-                <iconset>
-                 <normaloff>../../Biblioteca/Downloads/output-onlinepngtools.png</normaloff>../../Biblioteca/Downloads/output-onlinepngtools.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>32</width>
-                 <height>32</height>
-                </size>
+                <string>Light Mode</string>
                </property>
               </widget>
              </item>
