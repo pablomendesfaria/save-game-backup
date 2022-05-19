@@ -81,7 +81,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(189, 147, 249);</string>
+          <string notr="true"/>
          </property>
          <property name="frameShape">
           <enum>QFrame::NoFrame</enum>
@@ -106,7 +106,7 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QPushButton" name="pushButton_toggle">
+           <widget class="QPushButton" name="pushButton_toggle_menu">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
               <horstretch>0</horstretch>
@@ -117,11 +117,28 @@
              <cursorShape>PointingHandCursor</cursorShape>
             </property>
             <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);
-border: 0px solid;</string>
+             <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border: 0px solid;
+	icon: url(:/menu/icons/512x512/menu/menu.png)
+}
+
+QPushButton:hover {
+	icon: url(:/menu/icons/512x512/menu/menu-green-1.png)
+}
+
+QPushButton:pressed {
+	icon: url(:/menu/icons/512x512/menu/menu-green-2.png)
+}</string>
             </property>
             <property name="text">
-             <string>TOGGLE</string>
+             <string/>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>24</width>
+              <height>24</height>
+             </size>
             </property>
            </widget>
           </item>
@@ -246,16 +263,25 @@ border: 0px solid;</string>
                 <string notr="true">QPushButton {
 	color: rgb(255, 255, 255);
 	border: 0px solid;
-	background-color: rgb(40, 42, 54);
+	icon: url(:/home/icons/512x512/home/home.png);
 }
 
 QPushButton:hover {
-	color: rgb(255, 255, 255);
-	background-color: rgb(189, 147, 249);
+	icon: url(:/home/icons/512x512/home/home-green-1.png);
+}
+
+QPushButton:pressed {
+	icon: url(:/home/icons/512x512/home/home-green-2.png);
 }</string>
                </property>
                <property name="text">
-                <string>Home</string>
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -274,16 +300,25 @@ QPushButton:hover {
                 <string notr="true">QPushButton {
 	color: rgb(255, 255, 255);
 	border: 0px solid;
-	background-color: rgb(40, 42, 54);
+	icon: url(:/game/icons/512x512/game/game.png);
 }
 
 QPushButton:hover {
-	color: rgb(255, 255, 255);
-	background-color: rgb(189, 147, 249);
+	icon: url(:/game/icons/512x512/game/game-green-1.png);
+}
+
+QPushButton:pressed {
+	icon: url(:/game/icons/512x512/game/game-green-2.png);
 }</string>
                </property>
                <property name="text">
-                <string>Add Game</string>
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -302,16 +337,93 @@ QPushButton:hover {
                 <string notr="true">QPushButton {
 	color: rgb(255, 255, 255);
 	border: 0px solid;
-	background-color: rgb(40, 42, 54);
+	icon: url(:/settings/icons/512x512/settings/settings.png);
 }
 
 QPushButton:hover {
-	color: rgb(255, 255, 255);
-	background-color: rgb(189, 147, 249);
+	icon: url(:/settings/icons/512x512/settings/settings-green-1.png)
+}
+
+QPushButton:pressed {
+	icon: url(:/settings/icons/512x512/settings/settings-green-2.png)
 }</string>
                </property>
                <property name="text">
-                <string>Settings</string>
+                <string/>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignBottom">
+           <widget class="QFrame" name="frame_bottom_menu">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>10</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="pushButton_menu_dark_mode">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton {
+	color: rgb(255, 255, 255);
+	border: 0px solid;
+	icon: url(:/sun/icons/512x512/sun/picones-pablo_01.png)
+}
+
+QPushButton:hover {
+	icon: url(:/sun/icons/512x512/sun/picones-pablo_02.png)
+}
+
+QPushButton:pressed {
+	icon: url(:/sun/icons/512x512/sun/picones-pablo_03.png)
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../../Biblioteca/Downloads/output-onlinepngtools.png</normaloff>../../Biblioteca/Downloads/output-onlinepngtools.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
                </property>
               </widget>
              </item>
@@ -360,6 +472,8 @@ QPushButton:hover {
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="files.qrc"/>
+ </resources>
  <connections/>
 </ui>

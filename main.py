@@ -1,9 +1,9 @@
 import sys
-from PySide6.QtWidgets import QMainWindow, QApplication
-from PySide6.QtCore import QPropertyAnimation, QEasingCurve
+from PySide6.QtCore import (QPropertyAnimation)
+from PySide6.QtWidgets import (QMainWindow, QApplication)
 
-from ui_main import Ui_MainWindow
 from ui_functions import *
+from ui_main import Ui_MainWindow
 
 
 class MainWindow(QMainWindow):
@@ -13,7 +13,7 @@ class MainWindow(QMainWindow):
         self.ui.setupUi(self)
         self.animation = QPropertyAnimation(self.ui.frame_left_menu, b'minimumWidth')
 
-        self.ui.pushButton_toggle.clicked.connect(lambda: UiFunctions.toggle_menu(self, 150, True))
+        self.ui.pushButton_toggle_menu.clicked.connect(lambda: Ui_Functions.toggle_menu(self, 150, True))
         self.show()
 
 

@@ -1,7 +1,9 @@
-from main import *
+from PySide6.QtCore import QEasingCurve
+
+from main import MainWindow
 
 
-class UiFunctions(MainWindow):
+class Ui_Functions(MainWindow):
     def toggle_menu(self, maxWidth, enable):
         if enable:
             width = self.ui.frame_left_menu.width()
