@@ -120,15 +120,15 @@
              <string notr="true">QPushButton {
 	color: rgb(255, 255, 255);
 	border: 0px solid;
-	icon: url(:/32x32/icons/32x32/menu/menu.png)
+	icon: url(:/32x32/icons/32x32/menu.png);
 }
 
 QPushButton:hover {
-	icon: url(:/32x32/icons/32x32/menu/menu-green-1.png)
+	icon: url(:/32x32/icons/32x32/menu-green-1.png);
 }
 
 QPushButton:pressed {
-	icon: url(:/32x32/icons/32x32/menu/menu-green-2.png)
+	icon: url(:/32x32/icons/32x32/menu-green-2.png);
 }</string>
             </property>
             <property name="text">
@@ -270,7 +270,7 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	background-image: url(:/24x24/icons/24x24/home/home.png);
+	background-image: url(:/24x24/icons/24x24/home.png);
     background-position: left center;
     background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -281,7 +281,7 @@ QPushButton:pressed {
 }
 
 QPushButton[Active=true] {
-	background-image: url(:/24x24/icons/24x24/home/home.png);
+	background-image: url(:/24x24/icons/24x24/home.png);
     background-position: left center;
     background-repeat: no-repeat;
     border: none;
@@ -292,12 +292,12 @@ QPushButton[Active=true] {
 }
 
 QPushButton:hover {
-	background-image: url(:/24x24/icons/24x24/home/home-green-1.png);
+	background-image: url(:/24x24/icons/24x24/home-green-1.png);
     border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	background-image: url(:/24x24/icons/24x24/home/home-green-2.png);
+	background-image: url(:/24x24/icons/24x24/home-green-2.png);
     border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
@@ -307,7 +307,7 @@ QPushButton:pressed {
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="pushButton_menu_add_game">
+              <widget class="QPushButton" name="pushButton_menu_folder">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -325,7 +325,7 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	background-image: url(:/24x24/icons/24x24/folder/folder.png);
+	background-image: url(:/24x24/icons/24x24/folder.png);
     background-position: left center;
     background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -336,7 +336,7 @@ QPushButton:pressed {
 }
 
 QPushButton[Active=true] {
-	background-image: url(:/24x24/icons/24x24/folder/folder.png);
+	background-image: url(:/24x24/icons/24x24/folder.png);
     background-position: left center;
     background-repeat: no-repeat;
     border: none;
@@ -347,12 +347,12 @@ QPushButton[Active=true] {
 }
 
 QPushButton:hover {
-	background-image: url(:/24x24/icons/24x24/folder/folder-green-1.png);
+	background-image: url(:/24x24/icons/24x24/folder-green-1.png);
     border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	background-image: url(:/24x24/icons/24x24/folder/folder-green-2.png);
+	background-image: url(:/24x24/icons/24x24/folder-green-2.png);
     border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
@@ -380,7 +380,7 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	background-image: url(:/24x24/icons/24x24/settings/settings.png);
+	background-image: url(:/24x24/icons/24x24/settings.png);
     background-position: left center;
     background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -391,7 +391,7 @@ QPushButton:pressed {
 }
 
 QPushButton[Active=true] {
-	background-image:url(:/24x24/icons/24x24/settings/settings.png);
+	background-image: url(:/24x24/icons/24x24/settings.png);
     background-position: left center;
     background-repeat: no-repeat;
     border: none;
@@ -402,12 +402,12 @@ QPushButton[Active=true] {
 }
 
 QPushButton:hover {
-	background-image: url(:/24x24/icons/24x24/settings/settings-green-1.png);
+	background-image: url(:/24x24/icons/24x24/settings-green-1.png);
     border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	background-image: url(:/24x24/icons/24x24/settings/settings-green-2.png);
+	background-image: url(:/24x24/icons/24x24/settings-green-2.png);
     border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
@@ -456,7 +456,7 @@ QPushButton:pressed {
                </property>
                <property name="styleSheet">
                 <string notr="true">QPushButton {
-	background-image: url(:/24x24/icons/24x24/sun/sun-1.png);
+	background-image: url(:/24x24/icons/24x24/sun-1.png);
     background-position: left center;
     background-repeat: no-repeat;
 	color: rgb(255, 255, 255);
@@ -467,12 +467,12 @@ QPushButton:pressed {
 }
 
 QPushButton:hover {
-	background-image: url(:/24x24/icons/24x24/sun/sun-2.png);
+	background-image: url(:/24x24/icons/24x24/sun-2.png);
     border-left: 23px solid rgb(40, 42, 54);
 }
 
 QPushButton:pressed {
-	background-image: url(:/24x24/icons/24x24/sun/sun-3.png);
+	background-image: url(:/24x24/icons/24x24/sun-3.png);
     border-left: 23px solid rgb(40, 42, 54);
 }</string>
                </property>
@@ -513,8 +513,217 @@ QPushButton:pressed {
           </property>
           <item>
            <widget class="QStackedWidget" name="stackedWidget_pages">
-            <widget class="QWidget" name="page_1"/>
-            <widget class="QWidget" name="page_2"/>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <widget class="QWidget" name="page_home">
+             <widget class="QLabel" name="label_1">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>120</y>
+                <width>191</width>
+                <height>111</height>
+               </rect>
+              </property>
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 48pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>page 1</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_folder">
+             <widget class="QLabel" name="label_2">
+              <property name="geometry">
+               <rect>
+                <x>260</x>
+                <y>110</y>
+                <width>191</width>
+                <height>91</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">font: 48pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+              </property>
+              <property name="text">
+               <string>page 2</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_settings">
+             <layout class="QVBoxLayout" name="verticalLayout_6">
+              <item>
+               <widget class="QFrame" name="frame_page_3_div_1">
+                <property name="frameShape">
+                 <enum>QFrame::NoFrame</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <item>
+                  <widget class="QFrame" name="frame_Page_3_el_1_div_1">
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_8">
+                    <property name="spacing">
+                     <number>10</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QCheckBox" name="checkBox_page_3">
+                      <property name="maximumSize">
+                       <size>
+                        <width>16777215</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QCheckBox {
+	color: rgb(247, 248, 242);
+	spacing: 20px;
+}
+
+QCheckBox::indicator {
+    border: 1px solid rgb(255, 255, 255);
+	border-radius: 2px;
+	width: 15px;
+	height: 15px;
+}
+
+QCheckBox::indicator:hover {
+    border: 1px solid rgb(255, 209, 18);
+}
+
+QCheckBox::indicator:checked {
+	border: 1px solid rgb(255, 159, 0);
+	background-image: url(:/16x16/icons/16x16/check.png);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Delete file after use</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item alignment="Qt::AlignTop">
+                     <widget class="QFrame" name="frame_Page_3_el_2_div_1">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
+                      <layout class="QHBoxLayout" name="horizontalLayout_4">
+                       <property name="spacing">
+                        <number>20</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item>
+                        <widget class="QSpinBox" name="spinBox_page_3_div_1">
+                         <property name="maximumSize">
+                          <size>
+                           <width>50</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QSpinBox {
+	color: rgb(247, 248, 242);
+    border: 1px solid rgb(255, 255, 255);
+	border-radius: 2px;
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 17px;
+	border: none;
+}
+
+QSpinBox::up-arrow {
+    image: url(:/512x512/icons/512x512/arrow-drop-up.png);
+    width: 16px;
+    height: 16px;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 17px;
+	border: none;
+}
+
+QSpinBox::down-arrow {
+    image: url(:/512x512/icons/512x512/arrow-drop-down.png);
+    width: 16px;
+    height: 16px;
+}</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_page_3_div_1">
+                         <property name="maximumSize">
+                          <size>
+                           <width>16777215</width>
+                           <height>20</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">color: rgb(247, 248, 242);</string>
+                         </property>
+                         <property name="text">
+                          <string>Backups of database to keep (0 to unlimited)</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
            </widget>
           </item>
          </layout>
